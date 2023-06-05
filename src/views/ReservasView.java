@@ -356,14 +356,14 @@ public class ReservasView extends JFrame {
 			 
 			 int dias = -1;
 			 int noche = 50; //precio del costo por noche
-			 int valor;
+			 int valorInt;
 			 
 			 while(inicio.before(fin)||inicio.equals(fin)) {
 				 dias++;
 				 inicio.add(Calendar.DATE, 1);
 			 }
-			 valor = dias * noche;
-			 txtValor.setText(valor);
+			 valorInt = dias * noche;
+			 String valor = Integer.toString(valorInt);;
 		 }
 	 }
 	 

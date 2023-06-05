@@ -30,7 +30,7 @@ public class huespedesControlador {
 	}
 	
 	public void actualizar(String nombre, String apellido, Date fechaNacimiento, String nacionalidad, String telefono,Integer id_reserva) {
-		this.huespedesCrud.Actualizar(nombre, apellido, fechaNacimiento, nacionalidad, telefono,id_reserva);
+		this.huespedesCrud.Actualizar(nombre, apellido, fechaNacimiento, nacionalidad, telefono,id_reserva, id_reserva);
 	}
 	 
 	public void Eliminar(Integer idReserva) {
